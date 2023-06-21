@@ -1,0 +1,242 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(216, 216, 216);
+}
+
+.left-section{
+    display: flex;
+    align-items: center;
+}
+
+.hamburger-menu-button{
+    background-color: white;
+    color: white;
+    border:none;
+    width: 30px;
+    margin-right: 20px;
+    margin-left: 22px;
+}
+.hamburger-menu{
+    height: 23px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;}
+
+.youtube-logo{
+    height: 20px;
+    cursor: pointer;
+}
+
+.middle-section{
+    display: flex;
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px;
+    margin-right: 35px;
+    align-items: center;
+}
+
+
+.search-bar{
+    flex: 1;
+    height: 36.5px;   
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgb(192,192,192);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    box-shadow: inset 1px 2px 2px rgba(0,0,0,0.05);
+
+}
+
+.search-bar::placeholder{
+    font-size: 16px;
+    
+}
+
+.search-button{
+    height: 40px;
+    width: 66px;
+    border-width: 1px; 
+    border-style: solid;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: rgb(192,192,192);
+    background-color: rgb(233, 233, 233);
+    margin-left: -1px;
+    margin-right: 10px;
+    width: 0;
+    cursor: pointer;
+}
+
+.search-button,
+.voice-search-button,
+.upload-icon-container,
+.hamburger-menu-button,
+.youtube-apps-icon-container,
+.notification-icon-container,
+.account-profile-picture-box{
+    position: relative; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search-button .tool-tip,
+.voice-search-button .tool-tip,
+.upload-icon-container .tool-tip,
+.youtube-apps-icon-container .tool-tip,
+.notification-icon-container .tool-tip,
+.account-profile-picture-box .tool-tip
+{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    font-size: 12px;
+    bottom: -30px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.hamburger-menu-button .tool-tip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+    font-size: 12px;
+    bottom: -20px;
+    opacity: 0;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.search-button:hover .tool-tip,
+.voice-search-button:hover .tool-tip,
+.upload-icon-container:hover .tool-tip,
+.hamburger-menu-button:hover .tool-tip,
+.youtube-apps-icon-container:hover .tool-tip,
+.account-profile-picture-box:hover .tool-tip,
+.notification-icon-container:hover .tool-tip{ 
+    opacity: 1;
+    white-space: nowrap;
+}
+
+.search-icon{
+    height: 25px;
+    margin-top: 4px;
+}
+
+
+.voice-search-button{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(245,245,245);
+    cursor: pointer;
+    
+}
+.voice-search-icon{
+    height: 24px;
+    
+}
+
+
+.search-button{
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.right-section{
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.upload-icon{
+    width: 30px;
+    height: 24px;
+}
+
+.upload-icon-container{
+    cursor: pointer;
+}
+
+.youtube-apps-icon-container{
+    cursor: pointer;
+}
+
+
+.youtube-apps-icon{
+    width: 30px;
+    height: 24px;
+}
+
+.notification-icon-container {
+    position: relative;
+    cursor: pointer;
+}
+
+.notifications-count { 
+    position: absolute;
+    top: -4px;
+    right: -3px;
+    background-color: red;
+    color: white;
+    font-family: Roboto;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+}
+
+.notification-icons{
+    width: 30px;
+    height: 24px;
+}
+
+.account-profile-picture{
+    width: 30px;  
+    border-radius: 200px;
+    margin-right: 10px; 
+    margin-left: 14px;
+}
+ 
+.account-profile-picture-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 200px;
+    background-color: rgb(220,220,220);
+    cursor: pointer;
+}
