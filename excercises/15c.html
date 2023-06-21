@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>15b practice</title>
+    <style>
+      body {
+        height: 3000px;
+      }
+      .grey-box {
+        margin-top: 15px;
+        margin-left: 10px;
+        position: relative;
+
+        width: 320px;
+        height: 180px;
+        background-color: grey;
+      }
+      .cross-button {
+        position: absolute;
+        left: -10px;
+        top: -10px;
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: black;
+        color: white;
+        font-weight: 500;
+        border-radius: 20px;
+      }
+
+      .cross-button:hover {
+        opacity: 0.8;
+      }
+
+      .cross-button:active {
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grey-box">
+      <button class="cross-button">X</button>
+    </div>
+  </body>
+</html>

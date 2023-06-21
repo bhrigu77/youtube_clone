@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14e Practice</title>
+    <style>
+      .p {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      .friend-request-box {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        top: 20px;
+        left: 500px;
+        right: 500px;
+        height: 30px;
+        align-items: center;
+      }
+
+      .profile-image-box {
+        width: 60px;
+      }
+
+      .profile-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+      }
+
+      .user-id-box {
+        flex: 1;
+      }
+
+      .user-id {
+        font-weight: 500;
+      }
+
+      .add-friend-button-box {
+        margin-right: 5px;
+      }
+
+      .add-friend-button,
+      .message-button {
+        border: none;
+        border-radius: 4px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 16px;
+        padding-left: 16px;
+      }
+      .add-friend-button {
+        background-color: rgba(0, 72, 255, 0.591);
+        color: white;
+        font-weight: bold;
+        font-family: Arial;
+      }
+
+      .message-button {
+        background-color: rgb(223, 223, 223);
+        font-weight: bold;
+        font-family: Arial;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="friend-request-box">
+      <div class="profile-image-box">
+        <img class="profile-image" src="cat2.jpg" />
+      </div>
+      <div class="user-id-box"><p class="user-id">Oliver Cat</p></div>
+      <div class="add-friend-button-box">
+        <button class="add-friend-button">Add Friend</button>
+      </div>
+      <div class="message-button-box">
+        <button class="message-button">Message</button>
+      </div>
+    </div>
+  </body>
+</html>

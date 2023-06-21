@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13f practice</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin: 0;
+      }
+      .flex-box {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .column-flex-box {
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+      }
+      .profile-pic-box {
+        margin-right: 8px;
+      }
+      .profile-pic {
+        width: 60px;
+        height: 58px;
+        border-radius: 29px;
+      }
+
+      .id-box {
+        margin-bottom: 5px;
+      }
+
+      .id {
+        font-weight: 700;
+      }
+
+      .desc-box {
+        width: 400px;
+        margin-bottom: 40px;
+      }
+
+      .id-handle,
+      .youtube-com {
+        color: grey;
+      }
+
+      .video-link-flex-box {
+        display: flex;
+        border-style: solid;
+        border-color: rgb(208, 208, 208);
+        border-radius: 25px;
+        border-width: 1px;
+      }
+
+      .video-link-image-box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(208, 208, 208);
+        margin-right: 8px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+      }
+      .direct-link-flex-box {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .video-link-desc-box {
+        width: 280px;
+      }
+
+      .youtube-com {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-box">
+      <div class="profile-pic-box">
+        <img class="profile-pic" src="cat.jpg" />
+      </div>
+      <div class="column-flex-box">
+        <div class="id-box">
+          <p class="id">
+            supersimple.dev <span class="id-handle">@SuperSimpleDev</span>
+          </p>
+        </div>
+        <div class="desc-box">
+          <p class="desc">
+            What is Backend Web Development? A complete overview. New video is
+            up!
+          </p>
+        </div>
+        <div class="video-link-flex-box">
+          <div class="video-link-image-box"></div>
+          <div class="direct-link-flex-box">
+            <div><p class="youtube-com">youtube.com</p></div>
+            <div class="video-link-desc-box">
+              <p class="video-link-desc">
+                Backend web development - a complete overview(2021)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

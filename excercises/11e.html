@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11e practice</title>
+    <style>
+        
+      .grid-box{
+          display: grid;
+          grid-template-columns: 200px 200px 200px;
+          column-gap: 10px;   
+          row-gap: 10px;
+          
+        }
+      .box {
+        border: none;
+        border-width: 0.3px;
+        border-radius: 2px;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+        padding-bottom: 10px;
+        
+      }
+      .cat-image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+      }
+      .cat-name {
+        font-weight: bold;
+        font-size: 16px;
+        padding-left: 6px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .desc {
+        color: rgb(100, 100, 100);
+        padding-left: 6px;
+        
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      .add-friends {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        margin-left: 6px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgb(65, 134, 218);
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .add-friends:hover {
+        opacity: 0.8;
+      }
+      .add-friends:active {
+        opacity: 0.9;
+      }
+      .preview-image-box {                          
+        padding-right: 2px;
+        padding-left: 5px;
+      }
+      .preview-image {
+        width: 40px;
+        vertical-align: top;
+        margin-bottom: 10px;
+        border-radius: 600px;
+      }
+      .desc-box{
+        width: 120px;
+        vertical-align: top;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-box">
+        <div class="box">
+            <div class="image-box">
+              <img class="cat-image" src="Screenshot 2023-06-05 234134.png" />
+            </div>
+            <div>
+              <p class="cat-name">Oliver</p>
+            </div>
+            <div>
+              <div class="preview-image-box">
+                  <img class="preview-image" src="Screenshot 2023-06-06 222202.png" />
+              </div>
+              <div class="desc-box">
+                  <p class="desc">2 mutual friends</p>
+              </div>
+            </div>
+              <button class="add-friends">Add Friend</button>
+            </div>
+      
+          <div class="box">
+              <div class="image-box">
+                <img class="cat-image" src="Screenshot 2023-06-06 231105.png" />
+              </div>
+              <div>
+                <p class="cat-name">Oliver</p>
+              </div>
+              <div>
+                <div class="preview-image-box">
+                    <img class="preview-image" src="Screenshot 2023-06-06 222202.png" />
+                </div>
+                <div class="desc-box">
+                    <p class="desc">2 mutual friends</p>
+                </div>
+              </div>
+                <button class="add-friends">Add Friend</button>
+              </div>
+            
+            
+      
+          <div class="box">
+              <div class="image-box">
+                <img class="cat-image" src="Screenshot 2023-06-06 231332.png" />
+              </div>
+              <div>
+                <p class="cat-name">Oliver</p>
+              </div>
+              <div>
+                <div class="preview-image-box">
+                    <img class="preview-image" src="Screenshot 2023-06-06 222202.png" />
+                </div>
+                <div class="desc-box">
+                    <p class="desc">2 mutual friends</p>
+                </div>
+              </div>
+                <button class="add-friends">Add Friend</button>
+              </div>
+              </div>
+            </div>
+      
+    </div>
+        
+  </body>
+</html>
+
+
+

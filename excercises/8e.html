@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>8e Practice</title>
+    <style>
+      .ride-request {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      .pickup-location {
+        border: none;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        width: 220px;
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      .destination-location {
+        border: none;
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+        padding-left: 8px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: block;
+        border-radius: 5px;
+        width: 220px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+      }
+
+      .uber-button {
+        background-color: black;
+        color: white;
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+        border: none;
+        cursor: pointer;
+        font-weight: 50;
+        margin-right: 10px;
+        transition: opacity 0.1s;
+      }
+      .uber-button:hover {
+        opacity: 0.9;
+      }
+      .uber-button:active {
+        opacity: 0.8;
+      }
+      .Schedule-for-later {
+        background-color: rgba(0, 0, 0, 0.15);
+        border: none;
+        border-width: 10px;
+        color: black;
+        padding-left: 12px;
+        padding-top: 10px;
+        padding-right: 12px;
+        padding-bottom: 10px;
+        transition: opacity 0.1s;
+        cursor: pointer;
+      }
+      .Schedule-for-later:hover {
+        opacity: 0.9;
+      }
+      .Schedule-for-later:active {
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="ride-request">Request a ride now</p>
+    <input
+      class="pickup-location"
+      type="text"
+      placeholder="Enter pickup location"
+    />
+    <input
+      class="destination-location"
+      type="text"
+      placeholder="Enter destination"
+    />
+    <button class="uber-button">Request now</button>
+    <button class="Schedule-for-later">Schedule for later</button>
+  </body>
+</html>

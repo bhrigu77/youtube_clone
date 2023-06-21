@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13c practice</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        font-family: Roboto;
+      }
+      .boundary-box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 20px;
+        border-style: solid;
+        border-radius: 4px;
+        border-width: 1px;
+        border-color: rgb(192, 192, 192);
+        width: 370px;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .all-inboxes {
+        margin-bottom: 25px;
+      }
+      .flex-box {
+        display: flex;
+        align-items: top;
+        margin-bottom: 13px;
+      }
+      .pic-box {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .pic {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+      }
+
+      .main-text-box {
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+      }
+      .primary-text-box {
+        display: flex;
+        justify-content: space-between;
+        width: 300px;
+      }
+
+      .primary-text {
+        font-weight: 700;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      .time {
+        margin: 0;
+        font-size: 14px;
+      }
+
+      .secondary-text {
+        font-weight: 500;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .desc {
+        color: rgb(121, 120, 120);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="boundary-box">
+      <div class="all-inboxes">ALL INBOXES</div>
+      <div class="flex-box">
+        <div class="pic-box"><img class="pic" src="cat.jpg" /></div>
+        <div class="main-text-box">
+          <div class="primary-text-box">
+            <p class="primary-text">Chewy Promotions</p>
+            <p class="time">4:58</p>
+          </div>
+          <div class="secondary-text-box">
+            <p class="secondary-text">Biggest sales of the year!</p>
+          </div>
+          <div class="desc">
+            Hey there! We're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div class="pic-box"><img class="pic" src="cat2.jpg" /></div>
+        <div class="main-text-box">
+          <div class="primary-text-box">
+            <p class="primary-text">Best Buy</p>
+            <p class="time">4:58</p>
+          </div>
+          <div class="secondary-text-box">
+            <p class="secondary-text">Your best buy eReceipt</p>
+          </div>
+
+          <div class="desc">Thank you! For shopping at best buy...</div>
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div class="pic-box"><img class="pic" src="dog.jpg" /></div>
+        <div class="main-text-box">
+          <div class="primary-text-box">
+            <p class="primary-text">Netflix</p>
+            <p class="time">4:58</p>
+          </div>
+          <div class="secondary-text-box">
+            <p class="secondary-text">Here's what is comig soon to Netflix</p>
+          </div>
+          <div class="desc">Brand new movies and shows, old favorites...</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

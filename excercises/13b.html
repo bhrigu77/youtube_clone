@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>13b practice</title>
+    <style>
+      .flex-box {
+        display: flex;
+        flex-direction: row;
+        height: 54px;
+      }
+      .box-1 {
+        background-color: lightblue;
+        width: 300px;
+      }
+      .box-2 {
+        background-color: lightpink;
+        width: 600px;
+      }
+      .inner-box {
+        display: flex;
+        flex-direction: column;
+      }
+      .inner-box-1 {
+        align-items: start;
+      }
+      .inner-box-2 {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+      }
+      .innermost-box1 {
+        background-color: black;
+        color: white;
+      }
+
+      .innermost-box2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-box">
+      <div class="box-1"></div>
+      <div class="box-2">
+        <div class="inner-box">
+          <div class="inner-box-1">row1</div>
+          <div class="inner-box-2">
+            <div class="innermost-box1">row2</div>
+            <div class="innermost-box2">row3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

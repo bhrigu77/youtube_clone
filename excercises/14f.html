@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>14f Practice</title>
+    <style>
+      .p {
+        margin: 0;
+      }
+      .double-side-bar {
+        display: flex;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+      }
+
+      .profile-image-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(47, 47, 47);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 1000px;
+      }
+
+      .info-plus-inner-box {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .info-box {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(70, 70, 70);
+        width: 200px;
+      }
+
+      .info {
+        padding-left: 20px;
+        color: white;
+      }
+
+      .plus-symbol {
+        padding-right: 20px;
+        color: white;
+        font-weight: bold;
+      }
+
+      .new-videos,
+      .updates,
+      .faq {
+        padding-left: 20px;
+        color: white;
+      }
+
+      .new-videos {
+        margin-bottom: 0px;
+      }
+
+      .updates {
+        margin-bottom: 0px;
+      }
+      .faq {
+        margin-top: 16px;
+      }
+
+      .image-1,
+      .image-2,
+      .image-3 {
+        height: 60px;
+        width: 60px;
+        border-radius: 30px;
+      }
+
+      body {
+        height: 3000px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="double-side-bar">
+      <div class="profile-image-box">
+        <div class="image-box-1"><img class="image-1" src="cat.jpg" /></div>
+        <div class="image-box-2"><img class="image-2" src="cat2.jpg" /></div>
+        <div class="image-box-3"><img class="image-3" src="dog.jpg" /></div>
+      </div>
+      <div class="info-box">
+        <div class="info-plus-inner-box">
+          <div class="info-box"><p class="info">INFO</p></div>
+          <div class="plus-symbol-box"><p class="plus-symbol">+</p></div>
+        </div>
+        <div class="new-videos-box"><p class="new-videos"># new-videos</p></div>
+        <div class="updates-box"><p class="updates"># updates</p></div>
+        <div class="faq-box"><p class="faq"># faq</p></div>
+      </div>
+    </div>
+  </body>
+</html>

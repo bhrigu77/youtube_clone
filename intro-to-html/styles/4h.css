@@ -1,0 +1,46 @@
+.Back {
+    background-color: lightgrey;
+    color: black;
+    margin-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+    transition: opacity 0.03s, background-color 0.03s;
+    border-radius: 2px;
+    border-width: 0.2px;
+  }
+  .Back:hover {
+    opacity: 0.9;
+  }
+  .Back:active {
+    background-color: rgb(137, 135, 135);
+  }
+
+  .next {
+    background-color: lightgrey;
+    color: black;
+    margin-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-size: 16px;
+    transition: opacity 0.03s, background-color 0.03s;
+    border-radius: 2px;
+    border-width: 0.2px;
+  }
+  .next:hover {
+    opacity: 0.9;
+  }
+  .next:active {
+    background-color: rgb(137, 135, 135);
+  }
+
+  .search-result {
+    color: darkblue;
+    text-decoration: underline;
+    background-color: white;
+    border: none;
+    transition: color 0.02s;
+  }
+  .search-result:hover {
+    color: rgb(0, 0, 83);
+  }
